@@ -18,6 +18,7 @@ class RolesTableSeeder extends Seeder
         if (!$roleExists) {
             Role::create([
                 'name' => 'Administrator',
+                'label' => 'administrator'
             ]);
         }
     }
